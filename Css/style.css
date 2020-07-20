@@ -1,127 +1,206 @@
 @font-face {
-    font-family: Open_sans;
-    src: url('../Font/open-sans/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: UTM BryantLG;
-    src: url('../Font/utm-bryantlg.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: UTM BryantLG_B;
-    src: url('../Font/UTM\ BryantLG_B.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 2000px;
-    width: 1440px;
-    margin-left: 200px;
-    border: 2px red solid;
-  }
-  
-  .header-banner {
-    height: 150px;
-    width: 1440px;
-  }
-  
-  .header-banner img {
-    float: left;
-    margin: 36px 221.84px 0px 60px;
-  }
-  
-  .header-banner ul {
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    list-style: none;
-    padding-top: 65px;
-  }
-  
-  .header-banner li {
-    float: right;
-    color: #f1f1f1;
-    margin-right: 35px;
-  }
-  
-  .header-banner li a {
-    text-decoration: none;
-    font-family: Open-sans, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
-    /* identical to box height */
-    text-transform: uppercase;
-    color: #505353;
-  }
-  
-  .header-banner a:hover {
-    background: #B2D235;
-    border-radius: 17px;
-    color: white;
-    padding: 7px 15px 8px 20px;
-  }
-  
-  .header-content {
-    background-image: url("../image/Hapo_Learn_banner.png");
-    width: 1440px;
-    height: 655px;
-    position: absolute;
-  }
-  
-  .header-content p {
-    height: 50px;
-    width: 1440px;
-    font-size: 45px;
-    color: #11114E;
-  }
-  
-  .header-content .slogan1 {
-    font-family: UTM BryantLG, sans-serif;
-    margin-top: 204px;
-    margin-left: 59px;
-    margin-bottom: 0px;
-  }
-  
-  .header-content .slogan2 {
-    font-family: UTM BryantLG_B, sans-serif;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-left: 60px;
-    margin-bottom: 0px;
-  }
-  
-  small {
-    font-family: UTM BryantLG;
-    color: #505353;
-    font-size: 20px;
-  }
-  
-  .header-content button {
-    background: #B2D235;
-    color: white;
-    margin: 0px 0px 182px 60px;
-    text-align: center;
-    display: inline-block;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
-    padding: 13px 67px 20px 67px;
-  }
-  
-  .header-content button a {
-    font-family: UTM BryantLG, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    /* identical to box height */
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-  
+  font-family: Open_sans;
+  src: url('../Font/open-sans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: UTM BryantLG;
+  src: url('../Font/utm-bryantlg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url('../Font/UTM\ BryantLG_B.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
+  width: 1440px;
+  margin-left: 200px;
+  border: 2px red solid;
+}
+
+.header-banner {
+  height: 150px;
+  width: 1440px;
+}
+
+.header-banner img {
+  float: left;
+  margin: 36px 221.84px 0px 60px;
+}
+
+.header-banner ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style: none;
+  padding-top: 65px;
+}
+
+.header-banner li {
+  float: right;
+  color: #f1f1f1;
+  margin-right: 35px;
+}
+
+.header-banner li a {
+  text-decoration: none;
+  font-family: Open-sans, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #505353;
+}
+
+.header-banner a:hover {
+  background: #B2D235;
+  border-radius: 17px;
+  color: white;
+  padding: 7px 15px 8px 20px;
+}
+
+.header-content {
+  background-image: url("../image/Hapo_Learn_banner.png");
+  width: 1440px;
+  height: 655px;
+  position: absolute;
+}
+
+.header-content p {
+  height: 50px;
+  width: 1440px;
+  font-size: 45px;
+  color: #11114E;
+}
+
+.header-content .slogan1 {
+  font-family: UTM BryantLG, sans-serif;
+  margin-top: 204px;
+  margin-left: 59px;
+  margin-bottom: 0px;
+}
+
+.header-content .slogan2 {
+  font-family: UTM BryantLG_B, sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+small {
+  font-family: UTM BryantLG;
+  color: #505353;
+  font-size: 20px;
+}
+
+.header-content button {
+  background: #B2D235;
+  color: white;
+  margin: 0px 0px 182px 60px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  padding: 13px 67px 20px 67px;
+}
+
+.header-content button a {
+  font-family: UTM BryantLG, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hapoLearn-footer1 {
+  height: 308px;
+  width: 1440px;
+  position: relative;
+  color: #f1f1f1;
+}
+
+.hapolearn-footer {
+  background-color: #505353;
+  height: 270px;
+  width: 1440px;
+  display: flex;
+}
+
+.footer-text img {
+  margin-top: 46px;
+  margin-left: 132px;
+}
+
+.footer-text pre {
+  display: inline;
+  font-style: 20px;
+}
+
+.hapolearn-footer ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style: none;
+  font-family: UTM BryantLG;
+  font-weight: bold;
+}
+
+#menu1 ul {
+  margin: 49px 0px 0px 15px;
+}
+
+#menu2 ul {
+  margin: 50px 0px 0px 109px;
+}
+
+.hapolearn-footer li {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.hapolearn-footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-image ul {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  list-style: none;
+  margin: 105px 0px 0px 165px;
+}
+
+.footer-image li {
+  float: left;
+  margin-right: 35px;
+}
+
+.Footer-end {
+  height: 38px;
+  width: 1440px;
+  position: absolute;
+  background-color: #454545;
+}
+
+.Footer-end pre {
+  text-align: center;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+}

@@ -114,7 +114,80 @@ small {
   color: #FFFFFF;
   text-decoration: none;
 }
+/*content*/
+.content-courses {
+  width: 1440px;
+  height: 800px;
+  
 
+}
+
+.backend-course {
+  display: flex;
+  margin-left: 135px;
+}
+
+.box {
+  width: 370px;
+height: 470px;
+border: 2px red solid;
+margin-right: 30px;
+background: #FFFFFF;
+}
+
+.box .img-course {
+height: 215px;
+width: 370px;
+background: #3F6185;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 15px 15px 0px 0px;
+}
+
+.box .content
+pre {
+  
+font-family: UTM BryantLG;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+text-align: center;
+letter-spacing: -0.05em;
+}
+
+.box .content 
+h1 {
+  font-family: UTM BryantLG;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #B2D235;
+text-align: center;
+}
+
+
+.box button {
+  position: relative;
+  width: 200px;
+  height: 42px;
+  background: #B2D235;
+  box-shadow: inset 0px 1.5px 2px #6F8710;
+  border-radius: 22px;
+  margin: 0 0 46px 85px;  
+}
+
+.box button a {
+  font: normal bold 18px UTM BryantLG, sans-serif;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+/* footer*/
 .hapoLearn-footer1 {
   height: 308px;
   width: 1440px;

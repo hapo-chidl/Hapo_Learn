@@ -19,43 +19,35 @@
   font-style: normal;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 2000px;
-  width: 1440px;
-  margin-left: 200px;
-  border: 2px red solid;
-}
-
 .header-banner {
+  width: 100%;
   height: 150px;
-  width: 1440px;
+  display: flex;
 }
 
 .header-banner img {
-  float: left;
-  margin: 36px 221.84px 0px 60px;
+  padding: 36px 0 0 80px;
+  height: 70px;
+  width: 340.16px;
 }
 
 .header-banner ul {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
+  padding: 65px 0 0 350px;
+  display: flex;
   list-style: none;
-  padding-top: 65px;
+  align-content: space-around;
 }
 
 .header-banner li {
-  float: right;
   color: #f1f1f1;
-  margin-right: 35px;
+  padding-left: 70px;
 }
 
 .header-banner li a {
   text-decoration: none;
-  font: bold 14px Open-sans, sans-serif;
+  line-height: 19px;
+  font: bold 15px Open-sans, sans-serif;
   display: inline-block;
-  /* identical to box height */
   text-transform: uppercase;
   color: #505353;
 }
@@ -69,14 +61,19 @@ body {
 
 .header-content {
   background-image: url("../image/Hapo_Learn_banner.png");
-  width: 1440px;
-  height: 655px;
-  position: absolute;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .header-content p {
+  padding-left: 180px;
   height: 50px;
-  width: 1440px;
+  width: 100%;
   font-size: 45px;
   color: #11114E;
 }
@@ -87,164 +84,175 @@ body {
 }
 
 .header-content .slogan2 {
-  font: bold UTM BryantLG_B, sans-serif;
+  font-family: UTM BryantLG_B;
   margin: 0 0 0 60px;
+  font-weight: bolder;
 }
 
-small {
+.header-content pre {
+  padding-left: 120px;
   font-family: UTM BryantLG;
   font-size: 20px;
   color: #505353;
+  margin-top: 0;
 }
 
 .header-content button {
-  background: #B2D235;
-  color: white;
-  margin: 0px 0px 182px 60px;
-  text-align: center;
-  display: inline-block;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 210px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #b2d235;
+  align-items: center;
+  width: 377px;
+  height: 70px;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  padding: 13px 67px 20px 67px;
 }
 
 .header-content button a {
   font: normal bold 25px UTM BryantLG, sans-serif;
-  /* identical to box height */
   color: #FFFFFF;
   text-decoration: none;
 }
+
 /*content*/
 .content-courses {
-  width: 1440px;
-  height: 800px;
+    width: 1440px;
+    height: 800px;
+    
   
-
-}
-
-.backend-course {
-  display: flex;
-  margin-left: 135px;
-}
-
-.box {
+  }
+  
+  .backend-course {
+    display: flex;
+    margin-left: 135px;
+  }
+  
+  .box {
+    width: 370px;
+  height: 470px;
+  border: 2px red solid;
+  margin-right: 30px;
+  background: #FFFFFF;
+  }
+  
+  .box .img-course {
+  height: 215px;
   width: 370px;
-height: 470px;
-border: 2px red solid;
-margin-right: 30px;
-background: #FFFFFF;
-}
-
-.box .img-course {
-height: 215px;
-width: 370px;
-background: #3F6185;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-border-radius: 15px 15px 0px 0px;
-}
-
-.box .content
-pre {
+  background: #3F6185;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+  }
   
-font-family: UTM BryantLG;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-text-align: center;
-letter-spacing: -0.05em;
-}
-
-.box .content 
-h1 {
+  .box .content
+  pre {
+    
   font-family: UTM BryantLG;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 37px;
-color: #B2D235;
-text-align: center;
-}
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: -0.05em;
+  }
+  
+  .box .content 
+  h1 {
+    font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #B2D235;
+  text-align: center;
+  }
+  
+  
+  .box button {
+    position: relative;
+    width: 200px;
+    height: 42px;
+    background: #B2D235;
+    box-shadow: inset 0px 1.5px 2px #6F8710;
+    border-radius: 22px;
+    margin: 0 0 46px 85px;  
+  }
+  
+  .box button a {
+    font: normal bold 18px UTM BryantLG, sans-serif;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
 
+/*Footer*/
 
-.box button {
-  position: relative;
-  width: 200px;
-  height: 42px;
-  background: #B2D235;
-  box-shadow: inset 0px 1.5px 2px #6F8710;
-  border-radius: 22px;
-  margin: 0 0 46px 85px;  
-}
-
-.box button a {
-  font: normal bold 18px UTM BryantLG, sans-serif;
-  /* identical to box height */
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-
-
-/* footer*/
 .hapoLearn-footer1 {
   height: 308px;
-  width: 1440px;
-  position: relative;
+  width: 100%;
   color: #f1f1f1;
 }
 
 .hapolearn-footer {
   background-color: #505353;
   height: 270px;
-  width: 1440px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  margin-left: 132px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
 }
 
 .footer-text img {
-  margin: 46px 0 0 132px;
+  height: 60px;
+  width: 291.6px;
+  margin-top: 46px;
 }
 
 .footer-text pre {
-  display: inline;
-  font-style: 20px;
+  margin-top: 0;
+  font: 18px 25px UTM BryantLG;
+  letter-spacing: -0.05em;
 }
 
-.hapolearn-footer ul {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  flex-wrap: wrap;
+}
+
+.menu ul {
+  margin: 49px 0 0 0;
   list-style: none;
-  font-family: UTM BryantLG;
-  font-weight: bold;
 }
 
-#menu1 ul {
-  margin: 49px 0px 0px 15px;
+.menu li {
+  padding-left: 35px;
+  padding-bottom: 20px;
 }
 
-#menu2 ul {
-  margin: 50px 0px 0px 109px;
-}
-
-.hapolearn-footer li {
-  margin-top: 20px;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-.hapolearn-footer a {
+.menu a {
+  font: bold 20px UTM BryantLG;
   color: #f1f1f1;
   text-decoration: none;
 }
 
 .footer-image ul {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
+  width: 400px;
+  display: flex;
   list-style: none;
-  margin: 105px 0px 0px 165px;
+  justify-content: flex-start;
+  margin: 105px 0 0 165px;
 }
 
 .footer-image li {
@@ -252,14 +260,14 @@ text-align: center;
   margin-right: 35px;
 }
 
-.Footer-end {
+.footer-end {
   height: 38px;
-  width: 1440px;
+  width: 100%;
   position: absolute;
   background-color: #454545;
 }
 
-.Footer-end pre {
+.footer-end pre {
   text-align: center;
   font-style: normal;
   font-size: 15px;

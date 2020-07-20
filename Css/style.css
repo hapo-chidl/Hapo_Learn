@@ -53,9 +53,7 @@ body {
 
 .header-banner li a {
   text-decoration: none;
-  font-family: Open-sans, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
+  font: bold 14px Open-sans, sans-serif;
   display: inline-block;
   /* identical to box height */
   text-transform: uppercase;
@@ -85,23 +83,18 @@ body {
 
 .header-content .slogan1 {
   font-family: UTM BryantLG, sans-serif;
-  margin-top: 204px;
-  margin-left: 59px;
-  margin-bottom: 0px;
+  margin: 204px 0 0 59px;
 }
 
 .header-content .slogan2 {
-  font-family: UTM BryantLG_B, sans-serif;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-left: 60px;
-  margin-bottom: 0px;
+  font: bold UTM BryantLG_B, sans-serif;
+  margin: 0 0 0 60px;
 }
 
 small {
   font-family: UTM BryantLG;
-  color: #505353;
   font-size: 20px;
+  color: #505353;
 }
 
 .header-content button {
@@ -116,10 +109,7 @@ small {
 }
 
 .header-content button a {
-  font-family: UTM BryantLG, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
+  font: normal bold 25px UTM BryantLG, sans-serif;
   /* identical to box height */
   color: #FFFFFF;
   text-decoration: none;
@@ -140,8 +130,7 @@ small {
 }
 
 .footer-text img {
-  margin-top: 46px;
-  margin-left: 132px;
+  margin: 46px 0 0 132px;
 }
 
 .footer-text pre {

@@ -14,7 +14,11 @@
 
 @font-face {
   font-family: UTM BryantLG_B;
+<<<<<<< HEAD
   src: url('../Font/UTMBryantLG_B.ttf') format('truetype');
+=======
+  src: url('../Font/UTM\BryantLG_B.ttf') format('truetype');
+>>>>>>> ce282f624f85f8421f78ff496cc90ead4e3bb459
   font-weight: bold;
   font-style: normal;
 }
@@ -115,6 +119,7 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
 /*Footer*/
 
@@ -202,3 +207,5 @@
   line-height: 18px;
   letter-spacing: -0.05em;
 }
+=======
+>>>>>>> ce282f624f85f8421f78ff496cc90ead4e3bb459

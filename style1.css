@@ -37,27 +37,27 @@
   height: 194px;
 }
 
-.html-course {
+.right1-course {
   background: #3F6185;
 }
 
-.laravel-course {
+.middle1-course {
   background: #DC594C;
 }
 
-.php-course {
+.left1-course {
   background: #556598;
 }
 
-.java-course {
+.right2-course {
   background: #1B75BB;
 }
 
-.ruby-course {
+.middle2-course {
   background: #E14E40;
 }
 
-.css-course {
+.right2-course {
   background: #24ABE2;
 }
 
@@ -112,8 +112,6 @@
   color: #FFFFFF;
   text-decoration: none;
   line-height: 22px;
-  /* identical to box height */
-  color: #FFFFFF;
 }
 
 .other-course {

@@ -1,4 +1,4 @@
-.why_hapolearn {
+.why-hapolearn {
   width: 100%;
   height: 740px;
   border: 2px solid red;
@@ -6,13 +6,13 @@
   background-image: url("../image/BG.png");
 }
 
-.why_hapolearn_img {
+.why-hapolearn-img {
   width: 40%;
   display: flex;
   flex-direction: column;
 }
 
-.img_lap {
+.img-lap {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -20,14 +20,14 @@
   flex-wrap: wrap;
 }
 
-.img_lap .image {
+.img-lap .image {
   display: flex;
   justify-content: flex-start;
   height: 45%;
   margin-top: -120px;
 }
 
-.why_hapolearn .menu {
+.why-hapolearn .menu {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

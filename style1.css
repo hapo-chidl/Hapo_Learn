@@ -1,4 +1,3 @@
-/* start-learning*/
 .start-learning {
   height: 500px;
   width: 100%;
@@ -39,7 +38,6 @@
 }
 
 .statistic .slogan1 {
-  /* identical to box height */
   letter-spacing: -0.02em;
   color: #11114E;
   text-align: center;
@@ -68,7 +66,6 @@
 
 .start-menu .menu .menu-content {
   font: normal bold 50px UTM BryantLG;
-  /* identical to box height */
   letter-spacing: -0.05em;
   color: #505353;
 }

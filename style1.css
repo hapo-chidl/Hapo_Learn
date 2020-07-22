@@ -44,7 +44,7 @@
   background-image: url("../Hapo_Learn/image/Union.png");
   background-size: cover;
   padding: 60px 0 0 60px;
-  width: 580px;
+  width: 570px;
   height: 163px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .slideshow-right {
-  margin: -92px 0 0 547px;
+  margin: -92px 0 0 553px;
   border: 1px solid #C4C4C4;
   border-radius: 15px;
   height: 30px;
@@ -77,13 +77,18 @@
   background-color: #D9DADC;
   height: 145px;
   width: 5px;
-  margin: -150px 0 0 30px;
+  margin: -200px 0 0 30px;
 }
 
 .infor-user {
-  margin-top: 90px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
+}
+
+.infor-user img {
+  width: 60px;
+  height: 60px;
 }
 
 .user-comment {

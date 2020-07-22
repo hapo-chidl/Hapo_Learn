@@ -1,0 +1,149 @@
+.content-courses {
+  width: 100%;
+  height: 800px;
+}
+
+.backend-course {
+  display: flex;
+  margin-left: 135px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 370px;
+  margin-right: 100px;
+  height: 470px;
+  border: 2px #E5E5E5 solid;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.frontend-course .box {
+  width: 370px;
+  height: 410px;
+}
+
+.box .img-course {
+  height: 215px;
+  width: 370px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.frontend-course .box .img-course {
+  height: 194px;
+}
+
+.html-course {
+  background: #3F6185;
+}
+
+.laravel-course {
+  background: #DC594C;
+}
+
+.php-course {
+  background: #556598;
+}
+
+.css-course {
+  background: #1B75BB;
+}
+
+.ruby-course {
+  background: #E14E40;
+}
+
+.java-course {
+  background: #24ABE2;
+}
+
+.img-course img {
+  padding-top: 45px;
+}
+
+.box .content {
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frontend-course .content {
+  height: 201px;
+}
+
+.box .content h1 {
+  font: normal bold 30px UTM BryabtLG;
+  color: #B2D235;
+  text-align: center;
+  padding-top: 0;
+  height: 37px;
+}
+
+.box .content p {
+  height: 80px;
+  margin-top: 0;
+  font: normal bold 14px UTM BryantLG;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+
+.box button {
+  width: 200px;
+  height: 42px;
+  background: #B2D235;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+  margin: 0 0 46px 85px;
+}
+
+.frontend-course .box button {
+  margin-bottom: 36px;
+}
+
+.box button a {
+  font: normal bold 18px UTM BryantLG, sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 22px;
+}
+
+.other-course {
+  font: normal bold 30px UTM BryantLG;
+  letter-spacing: -0.02em;
+  width: 485px;
+  height: 98px;
+  color: #11114E;
+  margin-left: 700px;
+}
+
+.other-course h1 {
+  text-align: center;
+  border-radius: 3px;
+  border-bottom: 5px solid #B2D235;
+}
+
+.frontend-course {
+  display: flex;
+  margin-left: 135px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 45px;
+}
+
+.all-of-course {
+  width: 400px;
+  height: 49px;
+  margin-left: 760px;
+}
+
+.all-of-course a {
+  text-decoration: none;
+  color: #90AB26;
+  font: normal bolder 35px UTM BryantLG_B;
+  letter-spacing: -0.02em;
+}

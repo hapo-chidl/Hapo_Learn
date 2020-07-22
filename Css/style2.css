@@ -324,7 +324,7 @@
   font: normal bold 50px UTM BryantLG;
 }
 
-.menu ul li {
+.img-lap .menu li {
   list-style-image: url("../image/li.png");
   font: normal normal 20px UTM BryantLG;
   letter-spacing: -0.05em;

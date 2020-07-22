@@ -10,9 +10,13 @@
   align-items: center;
 }
 
-.start-learning .slogan {
+.start-learning .start-learn-slogan {
   font: normal bold 40px UTM BryantLG;
   color: #FFFFFF;
+}
+
+.start-learning .start-learn-slogan h1 {
+text-align: center;
 }
 
 .btn-start-learning .btn {
@@ -23,7 +27,7 @@
   height: 70px;
 }
 
-.btn a {
+.btn h1 {
   font: normal bold 30px UTM BryantLG;
   letter-spacing: -0.05em;
   color: #90AB26;
@@ -37,7 +41,7 @@
   flex-direction: column;
 }
 
-.statistic .slogan1 {
+.statistic .statistic-slogan {
   letter-spacing: -0.02em;
   color: #11114E;
   text-align: center;
@@ -45,7 +49,7 @@
   justify-content: center;
 }
 
-.statistic .slogan1 h1 {
+.statistic .statistic-slogan h1 {
   font: normal bold 70px UTM BryantLG;
   text-align: center;
   width: 300px;

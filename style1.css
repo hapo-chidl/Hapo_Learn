@@ -42,6 +42,5 @@
 .menu ul li {
   list-style-image: url("../image/li.png");
   font: normal normal 20px UTM BryantLG;
-  /* identical to box height */
   letter-spacing: -0.05em;
 }

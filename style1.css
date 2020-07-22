@@ -83,11 +83,10 @@
   height: 37px;
 }
 
-.box .content pre {
+.box .content p {
   height: 80px;
   margin-top: 0;
   font: normal bold 14px UTM BryantLG;
-  /* or 143% */
   text-align: center;
   letter-spacing: -0.05em;
   color: #505353;
@@ -108,7 +107,6 @@
 
 .box button a {
   font: normal bold 18px UTM BryantLG, sans-serif;
-  /* identical to box height */
   color: #FFFFFF;
   text-decoration: none;
   line-height: 22px;
@@ -116,7 +114,6 @@
 
 .other-course {
   font: normal bold 30px UTM BryantLG;
-  /* identical to box height */
   letter-spacing: -0.02em;
   width: 485px;
   height: 98px;

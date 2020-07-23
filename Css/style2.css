@@ -14,10 +14,10 @@
 
 @font-face {
   font-family: UTM BryantLG_B;
-  src: url('../Font/UTM\ BryantLG_B.ttf') format('truetype');
+  src: url('../Font/utm-bryantlg-b.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-}
+} 
 
 .header-banner {
   width: 100%;
@@ -27,7 +27,7 @@
 
 .header-banner img {
   padding: 36px 0 0 80px;
-  height: 70px;
+  height: 40%;
   width: 340.16px;
 }
 
@@ -38,10 +38,6 @@
   align-content: space-around;
 }
 
-.footer-text p {
-  margin-left: 10%;
-}
-
 .header-banner li {
   color: #f1f1f1;
   padding-left: 70px;
@@ -50,7 +46,7 @@
 .header-banner li a {
   text-decoration: none;
   line-height: 19px;
-  font: bold 15px Open-sans, sans-serif;
+  font: bold 15px 'Open-sans';
   display: inline-block;
   text-transform: uppercase;
   color: #505353;
@@ -82,15 +78,17 @@
   color: #11114E;
 }
 
-.header-content .slogan1 {
+.header-content .slogan-up {
   font-family: UTM BryantLG, sans-serif;
   margin: 0 0 0 59px;
+  -webkit-text-stroke: 1px #11114E;
 }
 
-.header-content .slogan2 {
+.header-content .slogan-down {
   font-family: UTM BryantLG_B;
   margin: 0 0 0 60px;
-  font-weight: bolder;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #11114E;
 }
 
 .header-content pre {
@@ -99,6 +97,7 @@
   font-size: 20px;
   color: #505353;
   margin-top: 0;
+  
 }
 
 .header-content button {
@@ -112,9 +111,10 @@
   height: 70px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: normal bold 25px UTM BryantLG_B;
+  font: normal bold 25px 'UTM BryantLG_B';
   color: #FFFFFF;
   text-decoration: none;
+  -webkit-text-stroke: 1px #FFFFFF;
 }
 
 .header-footer {
@@ -122,9 +122,6 @@
   height: 161px;
   width: 100%;
 }
-
-/*content*/
-
 
 .content-courses {
   width: 100%;
@@ -140,9 +137,7 @@
 }
 
 .box {
-  width: 370px;
   margin-right: 100px;
-  height: 470px;
   border: 2px #E5E5E5 solid;
   background: #FFFFFF;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
@@ -205,17 +200,18 @@
 }
 
 .box .content h1 {
-  font: normal bold 30px 'UTM BryabtLG';
+  font: normal bold 30px 'UTM BryabtLG_B';
   color: #B2D235;
   text-align: center;
   padding-top: 0;
   height: 37px;
+  -webkit-text-stroke: 0.5px #B2D235;
 }
 
 .box .content p {
   height: 80px;
   margin-top: 0;
-  font: normal bold 14px 'UTM BryantLG';
+  font: normal bold 14px 'UTM BryantLG_B';
   text-align: center;
   letter-spacing: -0.05em;
   color: #505353;
@@ -223,37 +219,44 @@
 
 .box button {
   width: 200px;
-  height: 42px;
+  height: 50px;
   background: #B2D235;
   box-shadow: inset 0 1.5px 2px #6F8710;
   border-radius: 22px;
   margin: 0 0 46px 85px;
 }
 
-.frontend-course .box .content button {
-  margin-bottom: 36px;
-  font: normal bold 18px 'UTM BryantLG';
-}
-
 .box button a {
-  font: normal bold 18px 'UTM BryantLG';
+  font: normal bold 18px/22px 'UTM BryantLG_B';
   color: #FFFFFF;
   text-decoration: none;
+  -webkit-text-stroke: 0.5px #FFFFFF;
 }
 
+.frontend-course .box button {
+  width: 200px;
+  height: 90px;
+}
+
+.frontend-course .box .content button {
+  margin-bottom: 36px;
+  font: normal bold 18px 'UTM BryantLG_B';
+}
 .other-course {
-  font: normal bold 30px 'UTM BryantLG';
+  font: normal bold 30px 'UTM BryantLG_B';
   letter-spacing: -0.02em;
   width: 485px;
   height: 98px;
   color: #11114E;
   margin-left: 700px;
+  -webkit-text-stroke: 0.5px #11114E;
 }
 
 .other-course h1 {
   text-align: center;
   border-radius: 3px;
   border-bottom: 5px solid #B2D235;
+  -webkit-text-stroke: 0.5px #B2D235;
 }
 
 .frontend-course {
@@ -273,11 +276,10 @@
 .all-of-course a {
   text-decoration: none;
   color: #90AB26;
-  font: normal bolder 35px 'UTM BryantLG_B';
+  font: normal bold 35px 'UTM BryantLG_B_B';
   letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.5px #B2D235;
 }
-
-/*WWhy hapoLearn*/
 
 .why-hapolearn {
   width: 100%;
@@ -318,13 +320,15 @@
 }
 
 .menu h1 {
-  font: normal bold 50px 'UTM BryantLG';
+  font: normal bold 50px 'UTM BryantLG_B';
+  -webkit-text-stroke: 1px white;
 }
 
 .img-lap .menu li {
   list-style-image: url("../image/li.png");
   font: normal normal 20px 'UTM BryantLG';
   letter-spacing: -0.05em;
+  -webkit-text-stroke: 0.5px white;
 }
 .feed-back {
   height: 650px;
@@ -347,13 +351,15 @@
   border-bottom: 5px solid #B2D235;
   border-radius: 3px;
   margin-bottom: 0;
+  -webkit-text-stroke: 1px #11114E;
 }
 
 .fb-slogan-down {
   margin-top: 20px;
-  font: normal normal 20px UTM BryantLG;
+  font: normal normal 20px 'UTM BryantLG';
   text-align: center;
   color: #505353;
+  -webkit-text-stroke: 0.3px #505353;
 }
 
 .fb-content {
@@ -378,10 +384,11 @@
 }
 
 .fb-user-content p {
-  font: normal normal 17px UTM BryantLG;
+  font: normal normal 17px 'UTM BryantLG';
   letter-spacing: -0.05em;
   text-align: left;
   color: #000000;
+  -webkit-text-stroke: 0.2px #000000;
 }
 
 .slideshow-left {
@@ -434,11 +441,12 @@
   font: normal bold 20px UTM BryantLG_B;
   color: #11114E;
   margin-bottom: 0;
+  -webkit-text-stroke: 0.3px #11114E;
 }
 
 .user-comment p {
   margin: 0;
-  font: normal bold 16px UTM BryantLG;
+  font: normal bold 16px 'UTM BryantLG_B';
   color: #505353;
 }
 
@@ -463,6 +471,7 @@
 .start-learning .start-learn-slogan {
   font: normal bold 35px 'UTM BryantLG';
   color: #FFFFFF;
+  -webkit-text-stroke: 0.5px #FFFFFF;
 }
 
 .start-learning .start-learn-slogan h1 {
@@ -475,10 +484,11 @@
   border-radius: 35px;
   width: 377px;
   height: 70px;
-  font: normal bold 30px 'UTM BryantLG';
+  font: normal bold 30px 'UTM BryantLG_B';
   letter-spacing: -0.05em;
   color: #90AB26;
   text-decoration: none;
+  -webkit-text-stroke: 0.6px #90AB26;
 }
 
 .statistic {
@@ -494,10 +504,11 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  -webkit-text-stroke: 0.5px #11114E;
 }
 
 .statistic .statistic-slogan h1 {
-  font: normal bold 70px 'UTM BryantLG';
+  font: normal bold 70px 'UTM BryantLG_B';
   text-align: center;
   width: 300px;
   border-bottom: 4px solid #90AB26;
@@ -516,16 +527,17 @@
 }
 
 .start-menu .menu .menu-content {
-  font: normal bold 50px 'UTM BryantLG';
+  font: normal bold 50px 'UTM BryantLG_B';
   letter-spacing: -0.05em;
   color: #505353;
 }
 
 .number {
   text-align: center;
-  font: normal bold 50px 'UTM BryantLG';
+  font: normal bold 50px 'UTM BryantLG_B';
   letter-spacing: -0.05em;
   color: #B2D235;
+  -webkit-text-stroke: 0.4px #B2D235;
 }
 
 /*Footer*/
@@ -614,3 +626,7 @@
   line-height: 18px;
   letter-spacing: -0.05em;
 }
+.footer-text p {
+  margin-left: 10%;
+}
+

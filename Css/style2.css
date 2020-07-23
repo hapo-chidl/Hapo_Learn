@@ -26,13 +26,20 @@
 }
 
 .header-banner img {
-  padding: 36px 0 0 80px;
-  height: 40%;
+  height: 70px;
   width: 340.16px;
+  padding: 36px 0 0 80px;
+
+}
+
+.header-banner .img {
+  height: 80px;
+  width: 20%;
+  
 }
 
 .header-banner ul {
-  padding: 65px 0 0 350px;
+  padding: 65px 0 0 25%;
   display: flex;
   list-style: none;
   align-content: space-around;
@@ -215,7 +222,9 @@
   text-align: center;
   letter-spacing: -0.05em;
   color: #505353;
+  -webkit-text-stroke: 0.4px #B2D235;
 }
+
 
 .box button {
   width: 200px;

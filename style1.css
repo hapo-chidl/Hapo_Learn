@@ -1,0 +1,119 @@
+.feedback {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-back-slogan {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fb-slogan-up h1 {
+  font: normal bold 70px UTM BryantLG_B;
+  letter-spacing: -0.02em;
+  color: #11114E;
+  border-bottom: 5px solid #B2D235;
+  border-radius: 3px;
+  margin-bottom: 0;
+}
+
+.fb-slogan-down {
+  margin-top: 20px;
+  font: normal normal 20px UTM BryantLG;
+  text-align: center;
+  color: #505353;
+}
+
+.fb-content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.fb-content .fb-user {
+  margin: 0 5% 0 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-user-content {
+  background-image: url("../Hapo_Learn/image/Union.png");
+  background-repeat: no-repeat;
+  background-size: initial;
+  padding: 50px 0 0 60px;
+  width: 570px;
+  height: 163px;
+}
+
+.fb-user-content p {
+  font: normal normal 17px UTM BryantLG;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #000000;
+}
+
+.slideshow-left {
+  margin:-92px 0 0 0;
+  border: 1px solid #C4C4C4;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.slideshow-right {
+  margin: -92px 0 0 553px;
+  border: 1px solid #C4C4C4;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.scroll {
+  background-color: #D9DADC;
+  height: 145px;
+  width: 5px;
+  margin: -200px 0 0 30px;
+}
+
+.fas {
+  font-size: 30px;
+  color: #969494 ;
+}
+
+.infor-user {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.infor-user img {
+  width: 60px;
+  height: 60px;
+}
+
+.user-comment {
+  padding-top: 0;
+  margin-left: 20px;
+}
+
+.user-comment h3 {
+  font: normal bold 20px UTM BryantLG_B;
+  color: #11114E;
+  margin-bottom: 0;
+}
+
+.user-comment p {
+  margin: 0;
+  font: normal bold 16px UTM BryantLG;
+  color: #505353;
+}
+
+.checked {
+  color: #F2C54F;
+}

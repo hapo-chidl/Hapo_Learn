@@ -257,7 +257,7 @@
   width: 485px;
   height: 98px;
   color: #11114E;
-  margin-left: 700px;
+  margin-left: 38%;
   -webkit-text-stroke: 0.5px #11114E;
 }
 
@@ -277,9 +277,8 @@
 }
 
 .all-of-course {
-  width: 400px;
-  height: 49px;
-  margin-left: 760px;
+  padding-top: 2%;
+  text-align: center;
 }
 
 .all-of-course a {

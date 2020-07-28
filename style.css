@@ -1,0 +1,160 @@
+.backend-course {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ /* margin-top: -5%; */
+}
+
+.box {
+  border: 2px #E5E5E5 solid;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-right: 2%;
+}
+
+.backend-course .box {
+  width: 24%;
+  height: 470px;
+}
+
+.frontend-course .box {
+  width: 24%;
+  height: 395px;
+}
+
+.box .img-course {
+  height: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.html-course {
+  background: #3F6185;
+}
+
+.laravel-course {
+  background: #DC594C;
+}
+
+.php-course {
+  background: #556598;
+}
+
+.css-course {
+  background-color: #1B75BB;
+  background-position: center;
+}
+
+.ruby-course {
+  background: #E14E40;
+}
+
+.java-course {
+  background: #24ABE2;
+}
+
+.img-course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .content {
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box .content h1 {
+  font: normal bold 30px 'UTM BryabtLG_B';
+  color: #B2D235;
+  text-align: center;
+  padding-top: 0;
+  height: 37px;
+  -webkit-text-stroke: 0.5px #B2D235;
+}
+
+.box .content p {
+  height: 80px;
+  margin-top: 0;
+  font: normal bold 14px 'UTM BryantLG_B';
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #505353;
+  -webkit-text-stroke: 0.4px #505353;
+}
+
+.box button {
+  width: 47%;
+  height: 50px;
+  background: #B2D235;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+}
+
+.frontend-course .box button {
+  width: 47%;
+  height: 90px;
+}
+
+.box button a {
+  font: normal bold 18px/22px 'UTM BryantLG_B';
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px #FFFFFF;
+}
+
+.frontend-course .box .content button {
+  margin-bottom: 36px;
+  font: normal bold 18px 'UTM BryantLG_B';
+}
+
+.other-course {
+  font: normal bold 30px 'UTM BryantLG_B';
+  letter-spacing: -0.02em;
+  width: 485px;
+  height: 98px;
+  color: #11114E;
+  margin-left: 38%;
+  -webkit-text-stroke: 0.5px #11114E;
+}
+
+.other-course h1 {
+  text-align: center;
+  border-radius: 3px;
+  border-bottom: 5px solid #B2D235;
+  -webkit-text-stroke: 0.5px #B2D235;
+}
+
+.frontend-course {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 45px;
+  height: 500px;
+}
+
+.frontend-course .content {
+  height: 201px;
+}
+
+.frontend-course .box .img-course {
+  height: 194px;
+}
+
+.all-of-course {
+  padding-top: 2%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.all-of-course a {
+  text-decoration: none;
+  color: #90AB26;
+  font: normal bold 35px 'UTM BryantLG_B_B';
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.5px #B2D235;
+}

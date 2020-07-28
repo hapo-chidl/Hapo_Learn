@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <link href="Css/style2.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js'>
-    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="JS/design.js"></script>
 </head>
 <body>
     <header class="hapolearn-header">
@@ -42,10 +42,12 @@
             <pre>
                     Interactive lessons, "on-the-go"
                     practice, peer support.
-            </pre><button>Start Learning Now!</button>
+            </pre>
+            <a href="#">Start Learning Now!</a>
         </div>
         <div class="header-footer"></div>
-    </header><!--Body-->
+    </header>
+    <!--Body-->
     <section class="body">
         <section class="content-courses">
             <div class="backend-course">
@@ -59,9 +61,7 @@
                         before entering New Media. I had coded quite a bit,<br>
                         but never touched anything in regards to web<br>
                         development.</p>
-                        <button class="course">
                             <a href="#">Take This Course</a>
-                        </button>
                     </div>
                 </div>
                 <div class="box">
@@ -74,9 +74,7 @@
                         before entering New Media. I had coded quite a bit,<br>
                         but never touched anything in regards to web<br>
                         development.</p>
-                        <button class="course">
-                            <a href="#">Take This Course</a>
-                            </button>
+                        <a href="#">Take This Course</a>
                     </div>
                 </div>
                 <div class="box">
@@ -89,9 +87,7 @@
                         before entering New Media. I had coded quite a bit,<br>
                         but never touched anything in regards to web<br>
                         development.</p>
-                        <button class="course">
-                            <a href="#">Take This Course</a>
-                        </button>
+                        <a href="#">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -107,9 +103,7 @@
                         <h1>CSS Tutorial</h1>
                         <p>I knew hardly anything about HTML, JS, and CSS<br>
                             before entering New Media,...</p>
-                        <button class="course">
                             <a href="#">Take This Course</a>
-                        </button>
                     </div>
                 </div>
                 <div class="box">
@@ -120,9 +114,7 @@
                         <h1>Ruby on rails Tutorial</h1>
                         <p>I knew hardly anything about HTML, JS, and CSS<br>
                         before entering New Media,...</p>
-                        <button class="course">
-                            <a href="#">Take This Course</a>
-                        </button>
+                        <a href="#">Take This Course</a>
                     </div>
                 </div>
                 <div class="box">
@@ -133,9 +125,7 @@
                         <h1>Java Tutorial</h1>
                         <p>I knew hardly anything about HTML, JS, and CSS<br>
                         before entering New Media,...</p>
-                        <button class="course">
-                            <a href="#">Take This Course</a>
-                        </button>
+                        <a href="#">Take This Course</a>
                     </div>
                 </div>
             </div>
@@ -214,7 +204,7 @@
                 growing community!</h1>
             </div>
             <div class="btn-start-learning">
-                <button class="btn" type="button">Start Learning Now !</button>
+                <a href="#">Start Learning Now !</a>
             </div>
         </section>
         <section class="statistic">
@@ -248,7 +238,33 @@
                 </div>
             </div>
         </section>
-    </section><!-- Footer-->
+    </section>
+    <section class="message">
+        <div class="message-box" id="box-chat">
+            <div class="message-button-out">
+                <p>HapoLearn</p>
+                <button onclick="closeButton()">X</button>
+            </div>
+            <div class="message-content">
+                <img alt="" src="image/Ellipse7.png">
+                <div class="message-content-slogan">
+                    <p>HapoLearn xin chào bạn.<br>
+                    Bạn có cần chúng tôi hỗ trợ gì không?</p>
+                </div>
+            </div>
+            <div class="message-login">
+                <img alt="" src="image/mess.png"> 
+                <a href="#"><p>Đăng nhập vào message.</p></a>
+            </div>
+            <div class="message-footer">
+                <p>Chat với HapoLearn trong message.</p>
+            </div>
+        </div>
+        <div class="message-button">
+            <button onclick="messButton()"><img alt="" class="mess-img" src="image/Group8.png"></button>
+        </div>
+    </section>
+    <!-- Footer-->
     <footer class="hapoLearn-footer1">
         <div class="hapolearn-footer">
             <div class="footer-text">
@@ -287,9 +303,12 @@
             </div>
             <div class="footer-image">
                 <ul>
-                    <li><img height="57px" src="image/FB.png" width="57px"></li>
-                    <li><img height="55px" src="image/call.png" width="55px"></li>
-                    <li><img height="55px" src="image/Message.png" width="55px"></li>
+                    <li>
+                        <a href="#"><img height="57px" src="image/FB.png" width="57px"></a></li>
+                    <li>
+                        <a href="#"> <img height="55px" src="image/call.png" width="55px"></a></li>
+                    <li>
+                        <a href="#"><img height="55px" src="image/Message.png" width="55px"></a></li>
                 </ul>
             </div>
         </div>

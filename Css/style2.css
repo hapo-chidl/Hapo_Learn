@@ -1,6 +1,6 @@
 @font-face {
   font-family: Open_sans;
-  src: url('../Font/open-sans/OpenSans-Regular.ttf') format('truetype');
+  src: url('../Font/open-sans/OpenSans-Regular.ttf') ;
   font-weight: normal;
   font-style: normal;
 }
@@ -19,26 +19,35 @@
   font-style: normal;
 } 
 
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
 .header-banner {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 150px;
   display: flex;
+  margin-top: 0;
+  align-items: center;
 }
 
 .header-banner img {
   height: 70px;
-  width: 340.16px;
-  padding: 36px 0 0 80px;
+  padding: 0px 0 0 80px;
 }
 
 .header-banner .img {
   height: 80px;
   width: 20%;
-  
 }
 
 .header-banner ul {
-  padding: 60px 0 0 400px;
+  padding-left: 25%  ;
   display: flex;
   list-style: none;
   align-content: space-around;
@@ -46,38 +55,39 @@
 
 .header-banner li {
   color: #f1f1f1;
-  padding-left: 70px;
+  margin-left: 30px;
 }
 
 .header-banner li a {
   text-decoration: none;
-  line-height: 19px;
-  font: bold 15px 'Open-sans';
+  font: bold 15px/19px Open-sans;
   display: inline-block;
   text-transform: uppercase;
   color: #505353;
+  padding: 7px 15px 8px 20px;
+
 }
 
 .header-banner a:hover {
-  background: #B2D235;
+  background-color: #B2D235;
   border-radius: 17px;
   color: white;
-  padding: 7px 15px 8px 20px;
 }
 
 .header-content {
+  margin-top: 15px;
   background-image: url("../image/Hapo_Learn_banner.png");
   background-size: cover;
-  height: 850px;
+  height: 655px;
   width: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .header-content p {
-  padding-left: 180px;
+  padding-left: 80px;
   height: 50px;
   width: 100%;
   font-size: 45px;
@@ -98,16 +108,17 @@
 }
 
 .header-content pre {
-  padding-left: 120px;
+
+  padding-left: 20px;
   font-family: UTM BryantLG;
   font-size: 20px;
   color: #505353;
-  margin-top: 0;
+  margin-top: 20px;
   
 }
 
 .header-content  a {
-  margin-left: 210px;
+  margin-left: 140px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -117,14 +128,20 @@
   height: 70px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
-  font: normal bold 25px 'UTM BryantLG_B';
+  font: normal bold 30px 'UTM BryantLG_B';
   color: #FFFFFF;
   text-decoration: none;
   -webkit-text-stroke: 1px #FFFFFF;
 }
 
+.header-content a:hover,
+.content a:hover,
+.btn-start-learning a:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
 .header-footer {
-  background: #E5E5E5;
+  background-image: url("../image/background1.png");
   height: 161px;
   width: 100%;
 }
@@ -198,30 +215,29 @@
 }
 
 .box .content h1 {
-  font: normal bold 30px 'UTM BryabtLG_B';
+  font: normal normal 30px 'UTM BryabtLG_B';
   color: #B2D235;
   text-align: center;
   padding-top: 0;
   height: 37px;
   -webkit-text-stroke: 0.5px #B2D235;
+  margin-bottom: 5px;
+}
+
+.frontend-course .box h1 {
+  margin-bottom: 5px;
+  padding-bottom: 0;
 }
 
 .box .content p {
   height: 80px;
   margin-top: 0;
-  font: normal bold 14px 'UTM BryantLG_B';
+  font: normal normal 14px 'UTM BryantLG';
   text-align: center;
   letter-spacing: -0.05em;
   color: #505353;
   -webkit-text-stroke: 0.4px #505353;
-}
-
-.box button {
-  width: 47%;
-  height: 50px;
-  background: #B2D235;
-  box-shadow: inset 0 1.5px 2px #6F8710;
-  border-radius: 22px;
+  padding-bottom: 2px;
 }
 
 .box a {
@@ -233,6 +249,7 @@
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
 .frontend-course .box .content a {
@@ -240,13 +257,18 @@
   font: normal bold 18px 'UTM BryantLG_B';
 }
 
+.backend-course .box .content
+a {
+  margin-bottom: 100px;
+}
 .other-course {
-  font: normal bold 30px 'UTM BryantLG_B';
+  margin-top: 65px;
+  font: normal bold 60px 'UTM BryantLG_B';
   letter-spacing: -0.02em;
-  width: 485px;
+  width: 500px;
   height: 98px;
   color: #11114E;
-  margin-left: 38%;
+  margin-left: 37%;
   -webkit-text-stroke: 0.5px #11114E;
 }
 
@@ -278,13 +300,19 @@
   margin-bottom: 100px;
 }
 
-.all-of-course a {
+.all-of-course a{
   text-decoration: none;
   color: #90AB26;
-  font: normal bold 35px 'UTM BryantLG_B_B';
+  font: normal bold 45px 'UTM BryantLG_B_B';
   letter-spacing: -0.02em;
   -webkit-text-stroke: 0.5px #B2D235;
 }
+
+.all-of-course:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+
 .why-hapolearn {
   width: 100%;
   height: 740px;
@@ -312,20 +340,22 @@
 }
 
 .img-lap .image {
+  margin-left: 40px;
   display: flex;
   justify-content: flex-start;
   height: 35%;
-  margin-top: -230px;
-  height: 478.32px;
-  width: 478.32px;
+  margin-top: -200px;
+  height: 500px;
+  width: 490px;
 }
 
 .why-hapolearn .menu {
+  margin-top: -100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   color: white;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 
 .menu h1 {
@@ -377,11 +407,19 @@
 }
 
 .fb-content .fb-user {
-  margin: 0 5% 0 10%;
+  margin: 0 5px 0 20%;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
+
+.fb-content .fb-user1 {
+  margin: 0 20% 0 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .fb-user-content {
   background-image: url("../image/Union.png");
@@ -473,12 +511,12 @@
   margin-top: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .start-learning .start-learn-slogan {
-  font: normal bold 35px 'UTM BryantLG';
+  font: normal bold 52px 'UTM BryantLG';
   color: #FFFFFF;
   -webkit-text-stroke: 0.5px #FFFFFF;
 }
@@ -493,7 +531,7 @@
   border-radius: 35px;
   width: 377px;
   height: 70px;
-  font: normal bold 30px 'UTM BryantLG_B';
+  font: normal bold 40px 'UTM BryantLG_B';
   letter-spacing: -0.05em;
   color: #90AB26;
   text-decoration: none;
@@ -564,6 +602,10 @@
   justify-content: space-between;
 }
 
+.hapolearn-footer .menu  a:hover {
+  -webkit-text-stroke-width: 1px;
+  text-decoration: underline;
+}
 .footer-text {
   margin-left: 132px;
   width: 500px;
@@ -607,6 +649,18 @@
   text-decoration: none;
 }
 
+
+.footer-image a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+
 .footer-image ul {
   width: 400px;
   display: flex;
@@ -616,14 +670,11 @@
 }
 
 .footer-image li {
-  float: left;
-  margin-right: 35px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.footer-image a {
-  overflow: hidden;
-    transition: all ease-in-out .5s;
-}
+
 
 .footer-end {
   height: 38px;
@@ -655,24 +706,26 @@
   border-radius: 23px;
 }
 
-.message-button button {
+.message-button img{
   position: fixed;
   margin-bottom: 200px;
   margin-top: 1%;
   margin-left: 14%;
-  background-color: #2774DF;
-  border-radius: 50%;
- padding: 0;
 }
 
 .message-box .message-button-out {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2px;
+}
+
+.message-button-out button {
+  font-weight: bold;
 }
 
 .message-box .message-button-out p {
-  font: normal 600 12px/16px "Open-sans";
+  font: normal 400 12px/16px "Open-sans";
   text-align: center;
   letter-spacing: -0.02em;
   color: #7F7F7F;
@@ -698,6 +751,7 @@
 .message-content {
   display: flex;
   justify-content: flex-start;
+  margin-left: 13px;
 }
 
 .message-content img {
@@ -715,7 +769,7 @@
 }
 
 .message-content .message-content-slogan p {
-  font: normal 600 14px/17px "Open_sans";
+  font: normal normal 14px/17px 'Open_sans';
   letter-spacing: -0.02em;
   color: #505353;
   padding-left: 4%;
@@ -741,7 +795,7 @@
 }
 
 .message-login a {
-  font: normal 600 14px/16px 'Open_sans';
+  font: normal 300 14px/16px 'Open_sans';
   text-align: center;
   letter-spacing: -0.02em;
   color: #FFFFFF;

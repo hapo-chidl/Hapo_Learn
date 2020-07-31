@@ -89,7 +89,6 @@ body {
 .header-content p {
   padding-left: 80px;
   height: 50px;
-  width: 100%;
   font-size: 45px;
   color: #11114E;
 }
@@ -262,13 +261,13 @@ a {
   margin-bottom: 100px;
 }
 .other-course {
-  margin-top: 65px;
+  margin-top: 100px;
   font: normal bold 60px 'UTM BryantLG_B';
   letter-spacing: -0.02em;
   width: 500px;
-  height: 98px;
+  height: 120px;
   color: #11114E;
-  margin-left: 37%;
+  margin-left: 36%;
   -webkit-text-stroke: 0.5px #11114E;
 }
 
@@ -808,4 +807,3 @@ a {
   letter-spacing: -0.02em;
   color: #B3B3B3;
 }
-

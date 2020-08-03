@@ -29,7 +29,7 @@ body {
 .header-banner {
   margin: 0;
   padding: 0;
-  height: 150px;
+  height: 95px;
   display: flex;
   margin-top: 0;
   align-items: center;
@@ -283,6 +283,7 @@ body {
   padding-top: 2%;
   text-align: center;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .all-of-course a{
@@ -291,9 +292,10 @@ body {
   font: normal bold 45px 'UTM BryantLG_B_B';
   letter-spacing: -0.02em;
   -webkit-text-stroke: 0.5px #B2D235;
+  
 }
 
-.all-of-course:hover {
+.all-of-course :hover {
   transform: scale(1.1);
   transition: all ease-in-out 0.5s;
 }
@@ -426,9 +428,9 @@ body {
 }
 
 .slideshow-right {
-  margin: -92px 0 0 560px;
+  margin: -90px 0 0 572px;
   border: 1px solid #C4C4C4;
-  border-radius: 15px;
+  border-radius: 18px;
   height: 20px;
   width: 20px;
   text-align: center;
@@ -443,7 +445,7 @@ body {
 }
 
 .fas {
-  font-size: 20px;
+  font-size: 22px;
   color: #969494 ;
 }
 
@@ -487,6 +489,7 @@ body {
   width: 100%;
   background-image: url("../image/banner_content.png");
   background-size: cover;
+  background-position: center;
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -505,17 +508,20 @@ body {
 }
 
 .btn-start-learning a {
-  background: #FFFFFF;
-  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  text-align: center;
   width: 377px;
   height: 70px;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
   font: normal bold 30px 'UTM BryantLG_B';
-  letter-spacing: -0.05em;
   color: #90AB26;
   text-decoration: none;
-  -webkit-text-stroke: 0.6px #90AB26;
-  padding: 20px 30px 20px 30px;
+  -webkit-text-stroke: 1px #90AB26;
 }
 
 .statistic {
@@ -656,20 +662,22 @@ body {
 
 
 .footer-end {
-  height: 38px;
+  height: 32px;
   width: 100%;
-  position: absolute;
+  position: relative;
   background-color: #454545;
+  margin-top:-15px;
 }
 
-.footer-end pre{
+.footer-end p{
   text-align: center;
   font-style: normal;
   font-size: 15px;
   line-height: 18px;
-  letter-spacing: -0.05em;
   font-family: UTM BryantLG;
+  padding-top: 7px;
 }
+
 .footer-text p {
   margin-left: 10%;
 }

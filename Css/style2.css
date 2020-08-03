@@ -330,19 +330,23 @@ body {
 
 .why-hapolearn .menu {
  margin-top: -24%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   color: white;
   margin-left: 40%;
 }
 
-.menu h1 {
+.menu p {
   font: normal bold 50px 'UTM BryantLG_B';
   -webkit-text-stroke: 1px white;
+  padding-bottom: 0;
+  margin-top: 20%;
+}
+
+.img-lap .menu ul {
+  margin-top: -2%;
 }
 
 .img-lap .menu li {
+
   list-style-image: url("../image/li.png");
   font: normal normal 20px 'UTM BryantLG';
   letter-spacing: -0.05em;
@@ -419,22 +423,23 @@ body {
 }
 
  .slideshow-left {
-  margin:-92px 0 0 -10px;
+  margin:-92px 0 0 -5px;
   border: 1px solid #C4C4C4;
   border-radius: 15px;
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 22px;
   text-align: center;
   cursor: pointer;
 }
 
 .slideshow-right {
-  margin: -90px 0 0 572px;
+  margin: -90px 0 0 565px;
   border: 1px solid #C4C4C4;
-  border-radius: 18px;
-  height: 20px;
-  width: 20px;
+  border-radius: 35px;
+  height: 24px;
+  width: 24px;
   text-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -446,7 +451,7 @@ body {
 }
 
 .fas {
-  font-size: 22px;
+  font-size: 28px;
   color: #969494 ;
 }
 

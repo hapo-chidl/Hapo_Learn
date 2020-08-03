@@ -42,12 +42,14 @@ body {
 }
 
 .header-banner ul {
+  
   display: flex;
   list-style: none;
   align-content: space-around;
 }
 
 .header-banner li {
+ padding-top: 2%;
   color: #f1f1f1;
   margin-left: 30px;
 }
@@ -59,7 +61,6 @@ body {
   text-transform: uppercase;
   color: #505353;
   padding: 7px 15px 8px 20px;
-
 }
 
 .header-banner a:hover {
@@ -311,7 +312,7 @@ body {
   width: 40%;
   display: flex;
   padding-top: 4%;
-  margin-right: 10%;
+  margin-right: 15%;
 }
 
 .img-lap {
@@ -328,12 +329,12 @@ body {
 }
 
 .why-hapolearn .menu {
- margin-top: -20%;
+ margin-top: -24%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   color: white;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 .menu h1 {
@@ -662,24 +663,25 @@ body {
 
 
 .footer-end {
-  height: 32px;
+  height: 38px;
   width: 100%;
-  position: relative;
+  position: absolute;
   background-color: #454545;
-  margin-top:-15px;
 }
 
 .footer-end p{
   text-align: center;
   font-style: normal;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 18px;
   font-family: UTM BryantLG;
-  padding-top: 7px;
+  margin-top: 12px;
+ 
 }
 
 .footer-text p {
   margin-left: 10%;
+
 }
 
 .message {
